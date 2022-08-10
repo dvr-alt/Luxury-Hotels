@@ -1,0 +1,672 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #14274A;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Abhaya Libre', serif;
+}
+
+.header-intro {
+    height: 1080px;
+    color: white;
+    background-image: url(images/a.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 195px;
+}
+
+.navbar_items {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+
+.navbar_link {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.navbar_items>li {
+    list-style: none;
+}
+
+.header-logo {
+    /* position: absolute; */
+    text-decoration: none;
+    color: #14274A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E0B973;
+    width: 256px;
+    /* height: 149px; */
+    padding: 45px 35px;
+    border-radius: 0 0 40px 40px;
+}
+
+.logo-title {
+
+    font-family: 'Adobe Garamond Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #14274A;
+}
+
+.logo-subtitle {
+    line-height: 18px;
+    font-family: 'Adobe Garamond Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #14274A;
+}
+
+.homepage {
+    text-decoration: underline;
+}
+
+.intro-items {
+    max-width: 700px;
+    padding-bottom: 108px;
+    
+}
+
+.intro-items_wlcm {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 0px;
+    margin: 0;
+}
+
+.intro-items_lux {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 154px;
+    line-height: 185px;
+    letter-spacing: 0.07em;
+    margin: 0;
+}
+
+.intro-items_htl {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 0px;
+    margin: 0;
+    letter-spacing: 0.07em;
+}
+
+.intro-items_text {
+    width: 572px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.intro-btn-scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-btn {
+    margin-bottom: 80px;
+    padding: 24px 32px;
+    background-color: #E0B973;
+    border-radius: 10px;
+    /* height: 78px; */
+    /* width: 268px; */
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    align-items: center;
+}
+
+.intro-btn-icon {
+    margin-right: 18px;
+}
+
+.intro-btn-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.intro-scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-scroll-text {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    padding-bottom: 15px;
+}
+
+.booking-container {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 85px;
+}
+
+.line {
+    height: 334px;
+    border-right: 2px solid #14274A;
+    margin-right: 48px;
+}
+
+.booking-title {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 93px;
+}
+
+.booking-product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.booking-product-1 {
+    margin-bottom: 70px;
+}
+
+.booking-product-box-1 {
+    max-width: 542px;
+    margin-right: 113px;
+
+}
+
+.booking-product-box-2 {
+    max-width: 650px;
+    margin-right: 68px;
+
+}
+
+.booking-product-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 25px;
+
+}
+
+.booking-product-subtitle {
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.booking-product-btn {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 20px 65px;
+    margin-top: 33px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #E0B973;
+    height: 68px;
+    width: 236px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF
+}
+
+.beach {
+    width: 682px;
+    background: rgba(20, 39, 74, 0.2);
+}
+
+.bed {
+    background: rgba(20, 39, 74, 0.2);
+
+}
+
+.booking-product-title-2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 25px;
+}
+
+.booking-products {
+    margin-bottom: 115px;
+
+}
+
+.booking-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.booking-review-title {
+    font-family: 'Abhaya Libre';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+
+.booking-review-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+
+.booking-review-author {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.booking-review-btns {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    color: #FFFFFF;
+    padding-top: 144px;
+    padding-bottom: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer {
+    background-image: url(images/footer-background.png);
+    background-size: cover;
+    margin-top: 100px;
+    background-position: center;
+}
+
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+}
+.footer-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+}
+.footer-links,
+.footer-contact-list {
+    list-style: none;
+
+}
+
+.footer-link,
+.footer-contact-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hotel-text {
+    max-width: 280px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.hotel-name {
+    font-family: 'Abhaya Libre';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 5px;
+
+
+}
+
+.hotel-subname {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.6em;
+}
+
+.footer-adress-hotelname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 42px;
+    justify-content: space-between;
+    margin-bottom: 23px;
+
+}
+
+.footer-adress {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-adress {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.footer-link-name {
+    margin-left: 26px;
+    font-weight: 400;
+    font-size: 16px
+}
+
+.footer-link-img-facebook {
+    margin-right: 7px;
+}
+
+.footer-contact-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-subscribe-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+
+}
+
+.footer-subscribe-input {
+    padding: 16px 26px;
+    border: 4px solid #E0B973;
+    outline: none;
+    background-color: #FFFFFF;
+
+}
+input::placeholder-shown { 
+    color : #FFFFFF !important;
+    
+}
+
+.footer-subscribe-btn {
+    background-color: #E0B973;
+    color: #14274A;
+    padding: 16px 27px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.footer-subscribe-input-btn {
+    display: flex;
+    flex-direction: row;
+
+}
+/* @media (max-width:1600px) {
+    .header-container {
+        max-width: 1200px;
+    }
+    .footer-adress {
+        max-width: 1200px;
+    }
+    .footer-container {
+        max-width: 1200px;
+    }
+} */
+@media (max-width:1200px) { /**************************1200**************************/
+    .header-logo, .line {
+        display: none;
+    }
+    .header-container {
+        max-width: 1000px;
+        margin: auto;
+        padding-top: 60px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .booking-product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .booking-product-box-1 {
+    
+        margin-right: 0px;
+    
+    }
+    .booking-product-box-2 {
+        margin-right: 0;
+    }
+    .booking-product-btn {
+        margin-bottom:  80px;
+    }
+    .booking-product-box-1, .booking-product-box-2 {
+        margin-left: 0px;
+    }
+    
+    .header-intro {
+        background-size: cover;
+    }
+    .footer {
+        background-image: none;
+        background-color: #14274A;
+    }
+    .footer-adress {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 1000px;
+        margin: auto;
+        margin-bottom: 70px;
+        margin-top: 30px;
+    }
+    .footer-container {
+        width: 1000px;
+        margin: auto;
+        color: #FFFFFF;
+        padding-top: 30px;
+        /* padding-bottom: 66px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: flex-start; */
+    }
+    .footer-links, .footer-contacts-lists  {
+        padding: 0;
+    }
+
+}
+
+@media (max-width:992px) { /**************************992*************************tablet*/
+    .footer-container {
+        max-width: 700px;
+        margin: auto;
+        color: #FFFFFF;
+        padding-top: 30px;
+        /* padding-bottom: 66px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: flex-start; */
+    }
+    .header-container {
+        max-width: 700px;
+    }
+    .footer-adress {
+        width: 700px;
+    }
+    .footer-media {
+        width: 700px;
+    }
+}
+
+
+@media (max-width:768px) { /**************************768*************************tablet*/
+    .navbar_items {
+        /* display: flex; */
+        width: 500px;
+        /* justify-content: space-between;
+        margin: auto; */
+        /* font-weight: 400; */
+        font-size: 18px;
+    }
+    .intro-items_wlcm {
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .intro-items_lux {
+        font-size: 120px;
+    }
+    .intro-items_htl {
+        font-size: 50px;
+        letter-spacing: 0.4em;
+    }
+    .intro-items_text {
+        font-size: 20px;
+        text-align: center;
+    }
+    .booking-title {
+        font-size: 24px;
+    }
+    .booking-review-text {
+        font-size: 20px;
+    }
+    .booking-review-title {
+        font-size: 40px;   
+    }
+    .booking-review-btns img {
+        height: 40px;
+    }
+    .booking-review-btns {
+        width: 80px; 
+    }
+    .booking-review-author {
+        font-size: 16px;
+    }
+    .booking-product-title,.booking-product-title-2 {
+        font-size: 40px;
+    }
+    .booking-product-subtitle {
+        font-size: 20px;
+    }
+    
+    
+}
+.header-burger {
+    display: none;
+}
+
+@media (max-width:576px) { /**************************576*************************mobile*/
+    .navbar_items {
+        display: none;
+    }
+    .header-burger {
+        display: block;
+        position: absolute;
+        right: 30px;
+        cursor: pointer;
+    }
+    .footer-container {
+        max-width: 500px;
+    }
+    .header-container {
+        max-width: 500px;
+    }
+    .footer-adress {
+        width: 500px;
+    }
+    .bed, .beach {
+        width: 300px;
+    }
+    .footer-media, .footer-adress{
+        flex-direction: column;
+    }
+    .footer-links, .footer-contacts-lists {
+        margin-bottom: 30px;
+    }
+
+}
+@media (max-width:320px) { /**************************320*************************mobile*/
+
+}
